@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+   base: '/safartoshev-site/',
   server: {
     host: "::",         // Listen on all network interfaces
     port: 3033,         // Set your desired port here
